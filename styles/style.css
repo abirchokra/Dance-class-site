@@ -1,0 +1,643 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  
+
+}
+.header-bg{
+    background-image:linear-gradient(45deg,rgba(0, 0, 255, 0.229),rgba(255, 192, 203, 0.155)),url(../images/photo-1520732789276-a0ebed2eeabd.avif);
+   
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 820px;
+    width: 100%;
+    background-size: cover;
+   
+}
+.nav-bar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 27px;
+  
+}
+.nav-middle{
+    border: 1px solid gray;
+    border-radius: 40px;
+    padding-top: 10px;
+    width: 500px;
+    padding-bottom: 10px;
+    padding-left: 36px;
+    
+}
+
+.nav-middle li{
+    list-style: none;
+    display: inline;
+}
+.nav-middle a{
+    text-decoration: none;
+    color: white;
+    margin-right: 30px;
+    font-size: 18px;
+    font-weight: 500;
+}
+.nav-right{
+    display: flex;
+    align-items: center;
+}
+.nav-right img{
+    cursor: pointer;
+    width: 30px;
+}
+.nav-btn{
+    background-color: rgb(244, 184, 38);
+    color: white;
+    border-radius: 40px;
+    padding: 14px;
+    width: 160px;
+    font-size: 17px;
+    font-weight: 600;
+    margin-left: 40px;
+    cursor: pointer;
+    border: none;
+}
+.nav-btn:hover{
+    background-color: transparent;
+    border: 1px solid rgb(244, 184, 38);
+    transition: .5s;
+}
+.header-container{
+    width: 700px;
+    height: 300px;
+    color: white;
+    
+ 
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 160px;
+}
+.header-container h3{
+    font-size: 18px;
+    margin-bottom: 20px;
+    font-weight: 500;
+
+}
+.header-container h1{
+    font-size: 52px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.Started{
+    margin-right: 50px;
+    background-color:rgb(244, 184, 38) ;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 30px;
+    padding: 20px;
+    font-size: 17px;
+    width: 200px;
+}
+.Started:hover{
+    transition: .4s;
+    background-color: transparent;
+    border: 1px solid rgb(244, 184, 38) ;
+}
+.More{
+    margin-right: 50px;
+    background-color:transparent;
+    color: white;
+    border:1px solid gray;
+    cursor: pointer;
+    border-radius: 30px;
+    padding: 20px;
+    font-size: 17px;
+    width: 200px;
+
+}
+.More:hover{
+    transition: .4s;
+    background-color: rgb(244, 184, 38);
+    border: 1px solid rgb(244, 184, 38);
+}
+.rhythm{
+    color:rgb(244, 184, 38) ;
+    text-decoration: underline;
+
+}
+
+.number-one-bg{
+    background-color: rgb(248, 242, 237);
+    height: 1000px;
+
+}
+.modern-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: white;
+    width: 1100px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    
+   
+}
+.modern-left{
+    width: 310px;
+    height: 500px;
+    padding-left: 10px;
+    background-color: rgb(244, 184, 38);
+}
+.modern-left img{
+    margin-bottom: 10px;
+}
+.modern-left h2{
+    font-size: 25px;
+    font-weight: 500px;
+}
+.modern-left ul{
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.modern-left-down li{
+    font-weight: 300;
+    font-size: 16px;
+    
+}
+.mod-header h3{
+    color: rgb(152, 144, 144);
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 20px;
+
+
+}
+.mod-header h1{
+    width: 600px;
+    font-size: 50px;
+    margin-bottom: 20px;
+    color: rgb(23, 22, 28);
+}
+.mod-header p{
+    color: rgb(126, 126, 126);
+    width: 400px;
+}
+.learn-more{
+    margin-top: 20px;
+    display: flex;
+    text-align: center;
+ 
+    align-items: center;
+}
+.learn-more a{
+    color: black;
+
+}
+.learn-more img{
+    width: 20px;
+    margin-left: 10px;
+}
+.learn-more a:hover{
+    transition: .6s;
+    color: rgb(244, 184, 38);
+}
+
+.member-con{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+
+}
+#member{
+    text-align: center;
+    width: 230px;
+    height: 200px;
+    margin-right: 20px;
+    border: 1px solid gray;
+    position: relative;
+}
+#member img{
+  
+    margin-top: 40px;
+}
+#member:hover{
+    transition: .6s;
+    background-color: rgb(230, 220, 220);
+   
+    cursor: pointer;
+}
+.class-header{
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 700px;
+    height: 150px;
+  
+    text-align: center;
+    margin-bottom: 50px;
+}
+.class-header h3{
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+.class-header h1{
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+.Breath{
+    text-decoration: underline;
+    color:rgb(244, 184, 38) ;
+}
+.class-img-container{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+.dance{
+    margin-right: 50px;
+    position: relative;
+}
+.dance-move{
+    position: absolute;
+    top: 70px;
+    left: 50px;
+}
+.dance-move h2{
+    color: white;
+    margin-top: 10px;
+    font-size: 28px;
+}
+.dance-move p{
+    margin-top: 10px;
+    color: rgb(242, 220, 212);
+    opacity: 0;
+}
+.dance-move-icon{
+    margin-top: 20px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: transparent;
+    text-align: center;
+    border: 1px solid white;
+}
+.dance-move-icon img{
+    width: 30px;
+    margin-top: 15px;
+
+}
+.dance:hover .dance-move p{
+    transition: .5s;
+    opacity: 1;
+}
+.dance:hover{
+    transition: .5s;
+    filter: brightness(70%);
+    cursor: pointer;
+}
+.dance-move-icon:hover{
+    transition: .4s;
+    background-color: white;
+}
+.style-header{
+    margin-left: 160px;
+    width: 600px;
+    height: 100px;
+    margin-bottom: 50px;
+
+}
+.style-header h3{
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    padding-top: 20px;
+}
+.style-header h2{
+    font-size: 44px;
+    font-weight: 600;
+}
+.style{
+    color:rgb(244, 184, 38) ;
+    text-decoration: underline;
+}
+.dance-class{
+    display: flex;
+    justify-content: center;
+}
+.dance-class-left{
+    margin-top: 40px;
+    background-color: white;
+    width: 400px;
+    height: 600px;
+  
+}
+#class-box{
+    width: 400px;
+    height: 150px;
+   
+  
+}
+.class-hori{
+    border: 1px solid gray;
+
+    margin-top: 80px;
+}
+.class-head{
+ 
+   margin-left: 20px;
+ 
+
+
+}
+.class-head h3{
+    color: rgb(112, 106, 106);
+    font-size: 18px;
+    font-weight: 400;
+}
+.class-head h2{
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+.class-bg{
+    background-color: rgb(248, 242, 237);
+}
+#class-box:hover{
+  
+    cursor: pointer;
+    transition: .6s;
+    background-color: rgb(244, 184, 38);
+
+}
+.teacher-section{
+    width: 500px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    margin-bottom: 20px;
+
+}
+.teacher-section h3{
+    color: rgb(110, 110, 128);
+    font-size: 28px;
+    font-weight: 400;
+
+}
+.teacher-section h2{
+    font-size: 48px;
+    font-weight: 600;
+    margin-top: 20px;
+ 
+
+}
+.faculty{
+    color:rgb(244, 184, 38) ;
+    text-decoration: underline;
+}
+.teacher-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 100px;
+    margin-top: 50px;
+}
+#teachers h2{
+    font-size: 28px;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: center;
+
+}
+#teachers h3{
+    color: rgb(110, 110, 128);
+    font-size: 18px;
+    text-align: center;
+    font-weight: 400;
+
+}
+#teachers{
+    position: relative;
+}
+.teacher-icon{
+    position: absolute;
+    top: 0px;
+ 
+    width: 100%;
+    height: 86%;
+    text-align: center;
+    background-color: rgba(40, 40, 49, 0.541);
+    opacity: 0;
+
+}
+.teacher-icon img{
+    margin-top: 250px;
+    width: 40px;
+    filter: grayscale(1);
+    margin-right: 20px;
+}
+#teachers:hover .teacher-icon{
+    transition: .6s;
+    opacity: 1;
+    cursor: pointer;
+
+}
+.teacher-icon img:hover{
+    filter: grayscale(0);
+
+}
+.touch-container{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 100px;
+    
+}
+.head-touch{
+    width: 700px;
+    position: relative;
+}
+.touch-left h1{
+    font-size: 72px;
+   
+    font-weight: 700;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    opacity: 0.4;
+   
+}
+.touch-left h2{
+    font-size: 48px;
+    font-weight: 800;
+    position: absolute;
+    top: 30px;
+    left: 80px;
+
+
+
+}
+.input-one{
+    margin-top: 40px;
+  
+}
+.input-one input{
+    width: 300px;
+    height: 40px;
+    margin-right: 10px;
+    padding-left: 20px;
+    outline: none;
+}
+.input-two{
+    margin-top: 30px;
+
+}
+.input-two input{
+    width: 300px;
+    height: 40px;
+    margin-right: 10px;
+    padding-left: 20px;
+    outline: none;
+}
+.text-area{
+    width: 670px;
+    height: 180px;
+    margin-top: 20px;
+    outline: none;
+}
+.touch-btn{
+    width: 150px;
+    height: 40px;
+    border-radius: 40px;
+    margin-top: 20px;
+    border: none;
+    background-color: rgb(244, 184, 38);
+    font-size: 16px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: 500;
+   
+}
+.touch-btn:hover{
+    transition: .6s;
+    background-color:white ;
+    border: 1px solid black;
+    cursor: pointer;
+}
+.footer-bg{
+    width: 100%;
+    height: 600px;
+    background-color:black ;
+   
+    
+}
+.foot-main{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 100px;
+}
+footer p{
+    color: rgb(143, 153, 153);
+}
+.div-one img{
+    width: 100px;
+    margin-bottom: 20px;
+
+}
+.divss{
+    
+   
+    width: 200px;
+    height: 300px;
+  
+
+}
+.divss h3{
+    color: white;
+    font-size: 28px;
+    font-weight: 500;
+    
+
+}
+.divss h3:hover{
+    transition: .5s;
+    color:rgb(244, 184, 38) ;
+
+}
+
+.divss li{
+    list-style: none;
+    margin-bottom: 20px;
+}
+.divss a{
+    text-decoration: none;
+    color: rgb(143, 153, 153);
+
+}
+.same-hori{
+    margin-bottom: 30px;
+    width: 100px;
+}
+.div-last {
+    width: 400px;
+    height: 300px;
+  
+
+}
+.div-last h3{
+    color: white;
+    font-size: 28px;
+    font-weight: 500;
+}
+.div-last h3:hover{
+    transition: .5s;
+    color:rgb(244, 184, 38) ;
+}
+
+.div-last input{
+    width: 250px;
+    height: 50px;
+    padding-left: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+    outline: none;
+    background-color: transparent;
+    border: 1px solid gray;
+    border-radius: 40px;
+}
+.div-last button{
+    width: 160px;
+    height: 50px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    background-color:rgb(244, 184, 38) ;
+    margin-top: 30px;
+    font-size: 18px;
+    color: white;
+    font-weight: 500;
+}
+.div-last button:hover{
+    background-color: transparent;
+    border: 1px solid white;
+    transition: .5s;
+}
+.same-hori2{
+    width: 100px;
+    margin-bottom: 20px;
+}
+.main-hori{
+    margin-top: 100px;
+}
+.last-line{
+    color:rgb(143, 153, 153) ;
+    text-align: center;
+    margin-top: 30px;
+}
